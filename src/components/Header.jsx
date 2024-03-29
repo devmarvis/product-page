@@ -20,7 +20,7 @@ const Header = () => {
         <div className="mr-10 text-2xl font-semibold flex-1">
           <h2>sneakers</h2>
         </div>
-        <nav className={`flex flex-col sm:flex-row items-center list-none flex-1 gap-8 sm:gap-1 text-lg sm:text-sm font-medium text-gray-500 absolute sm:relative w-full sm:w-auto left-0 top-[61px] sm:top-0 p-10 sm:p-0 bg-white sm:bg-transparent sm:translate-x-0 ${openMobileNav ? "" : "translate-x-full"} transition-transform`}>
+        <nav className={`flex flex-col sm:flex-row items-center list-none flex-1 gap-8 sm:gap-1 text-lg sm:text-sm font-medium text-gray-500 absolute sm:relative w-full sm:w-auto left-0 top-[61px] sm:top-0 p-10 sm:p-0 bg-white sm:bg-transparent sm:translate-x-0 ${openMobileNav ? "" : "translate-x-full"} transition-transform z-20`}>
           <li className="p-2 hover:text-gray-900 hover:font-semibold cursor-pointer">Collections</li>
           <li className="p-2 hover:text-gray-900 hover:font-semibold cursor-pointer">Men</li>
           <li className="p-2 hover:text-gray-900 hover:font-semibold cursor-pointer">Women</li>
